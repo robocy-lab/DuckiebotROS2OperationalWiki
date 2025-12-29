@@ -25,6 +25,25 @@ Before continue reading this manual please install the following utils and clone
 1. GUI Tools - https://github.com/robocy-lab/gui_tools
 2. Duckietown ROS2 messages - https://github.com/robocy-lab/DuckietownRos2Messages
 
+# Switching on/off. Charging
+## Switching on
+1. To switch on Duckiebot press the small button on the left side of the robot.
+![](./assets/switch_on.jpg)
+2. Wait until the LED screen turns on and display the current Duckiebot's status. After that the robot is ready.
+![](./assets/robot_ready.jpg)
+## Switching off
+1. To switch off Duckiebot press and hold (for 10-15 seconds) THE BUTTON on the top panel of the robot.
+![](./assets/the_button.jpg)
+2. You will see a "Shutting down" message on the LED screen.
+![](./assets/switching_off.jpg)
+3. If the robot doesn't shut down in 30 seconds, you need to unplug all the cables that are going to HUT, wait for 5 minutes and plug them in back.
+![](./assets/cabels_on_hut.jpg)
+## Charging
+1. DO NOT let Duckiebot's charge go below 10% of its capacity.
+2. Try to avoid using Duckiebot while it is charging.
+3. To charge Duckiebot, insert charging cable into the third port on the HUT.
+![](./assets/charging_port.jpg)
+
 # How to connect to Duckiebot via SSH
 + You can connect to any Duckiebot via SSH.
 + To do so:
